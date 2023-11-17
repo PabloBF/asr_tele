@@ -1,8 +1,8 @@
 # Avaliação 7 - Docker Hub
 
-**Executar e evidenciar os passos para:**
-1. **Criar uma conta no Docker Hub;**
-2. **Fazer um push de uma imagem com uma `tag latest` para a sua conta no Docker Hub.**
+1. **Executar e evidenciar os passos para:**
+    1. **Criar uma conta no Docker Hub;**
+    2. **Fazer um push de uma imagem com uma `tag latest` para a sua conta no Docker Hub.**
 
 ![1](https://github.com/PabloBF/asr_tele/assets/55034604/ec28db7c-6eb2-4e52-9f77-f50f7be81ff3)
 
