@@ -2,7 +2,7 @@
 
 Responda as seguintes questões:
 
-1. **O que é um Dockerfile?
+1. **O que é um Dockerfile?**
 
    > O Dockerfile é um arquivo de configuração utilizado para definir as instruções necessárias para criar uma imagem Docker. Ele contém uma série de comandos que são executados sequencialmente para configurar o ambiente e criar a imagem que será usada para instanciar contêineres.
 
@@ -44,7 +44,7 @@ Responda as seguintes questões:
 
     > O comando `CMD`.
 
-11. **Responda: O Docker usa uma interface CLI para gerenciar os seus vários objetos através de comandos. O que faz os comandos abaixo:  
+11. **Responda: O Docker usa uma interface CLI para gerenciar os seus vários objetos através de comandos. O que fazem os comandos abaixo:**  
     1. **`docker run`:**
    
        > Cria e executa um contêiner.
