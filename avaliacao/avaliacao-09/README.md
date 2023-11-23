@@ -1,4 +1,4 @@
-# Avaliação 8 – Docker compose
+# Avaliação 9 – Dockerfile e Docker CLI
 
 Responda as seguintes questões:
 
