@@ -1,5 +1,6 @@
-O Dockerfile é um arquivo de configuração utilizado para definir as instruções necessárias para criar uma imagem Docker. Ele contém uma série de comandos que são executados sequencialmente para configurar o ambiente e criar a imagem que será usada para instanciar contêineres. Responda as seguintes questões:
+# Avaliação 8 – Docker compose
 
+Responda as seguintes questões:
 
 1. O que é um Dockerfile?
 
