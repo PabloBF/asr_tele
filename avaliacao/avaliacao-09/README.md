@@ -7,39 +7,39 @@ O Dockerfile é um arquivo de configuração utilizado para definir as instruç�
 
 2. Qual comando é usado para iniciar um Dockerfile?
 
-   > `docker build .`
+   > `docker build -t nomedaimagem:tag .`.
 
 3. Qual comando é usado para definir a imagem base no Dockerfile?
 
-   > `FROM`
+   > O comando `FROM`.
 
 4. Como você adiciona arquivos locais ao sistema de arquivos do contêiner no Dockerfile?
 
-   > `COPY arquivo_local.txt /caminho/no/contêiner/`
+   > Com o comando `COPY arquivo_local.txt /caminho/no/contêiner/`.
 
 5. Como você especifica o diretório de trabalho no Dockerfile?
 
-   > `WORKDIR` 
+   > Com o comando `WORKDIR`.
 
 6. Qual comando é usado para executar comandos durante a criação da imagem Docker no Dockerfile?
 
-   > `RUN`
+   > O comando `RUN`.
 
 7. Como você expõe portas no Dockerfile?
 
-   > `EXPOSE`
+   > Com o comando `EXPOSE`.
 
 9. Qual comando é usado para definir variáveis de ambiente no Dockerfile?
 
-    > ``
+    > O comando `ARG`.
 
 10. Como você comenta linhas no Dockerfile?
 
-    > `#`
+    > Com o caractere `#`.
 
 11. Qual comando é usado para executar a aplicação principal quando um contêiner é iniciado no Dockerfile?
 
-    > `CMD`
+    > O comando `CMD`.
 
 12. Responda: O Docker usa uma interface CLI para gerenciar os seus vários objetos através de comandos. O que faz os comandos abaixo:  
     1. `docker run`:
@@ -48,11 +48,11 @@ O Dockerfile é um arquivo de configuração utilizado para definir as instruç�
 
     2. `docker build`:
    
-       > Constroi uma imagem.
+       > Constrói uma imagem.
 
     3. `docker pull`:
    
-       > Descarrega uma imagem do Docker hub.
+       > Descarrega uma imagem a partir de um registro no Docker hub.
 
     4. `docker push`:
    
@@ -98,4 +98,4 @@ O Dockerfile é um arquivo de configuração utilizado para definir as instruç�
    
         > Gerencia volumes.
 
-Registre as respostas a esse questionário do seu GitHub e post o Link da atividade no Classroom.
+Registre as respostas a esse questionário do seu GitHub e poste o *link* da atividade no Classroom.
