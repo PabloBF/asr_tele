@@ -1,4 +1,4 @@
-# Avaliação 3
+# Avaliação 3 - OpenSSH
 
 1. Instalar o OpenSSH. Gerar chaves pública e privada. Copiar a chave pública no Linux. Mostrar a chave copiada no diretório do Linux. Testar a conexão usando as chaves pública e privada. Fazer um registro em PDF de cada etapa.
 
