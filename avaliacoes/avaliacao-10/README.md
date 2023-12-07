@@ -1,7 +1,7 @@
 <p align="center">
     <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="/img/ifce/logo-vertical-colorida_media.png">
-        <source media="(prefers-color-scheme: light)" srcset="/img/ifce/logo-vertical-branca_media.png">
+        <source media="(prefers-color-scheme: dark)" srcset="/img/ifce/logo-vertical-branca_media.png">
+        <source media="(prefers-color-scheme: light)" srcset="/img/ifce/logo-vertical-colorida_media.png">
         <img alt="IFCE" width="100" src="/img/ifce/logo-vertical-colorida_media.png">
     </picture>
 </p>
