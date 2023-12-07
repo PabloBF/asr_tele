@@ -23,11 +23,9 @@ PABLO BUSATTO</p>
 Evidenciar o funcionamento da aplicação usando *prints*. Sugerimos usar o [Play with Docker](https://labs.play-with-docker.com) com o `docker-compose`. Observar os *links* de artigos apresentando esse tema anexos abaixo. Trabalho com equipes de no máximo três alunos.
 
    > ![1](https://github.com/PabloBF/asr_tele/assets/55034604/8ebc0012-368f-4e6e-812f-694de94c85a4)
-
-   > ***Figura 1**. Instalação do Mosquitto pelo `docker-compose`.*
+     ***Figura 1**. Instalação do Mosquitto pelo `docker-compose`.*
 
    > ---
 
    > ![2](https://github.com/PabloBF/asr_tele/assets/55034604/16cb3f82-6ab1-4981-a4a4-4376d9da42cf)
-
-   > ***Figura 2**. Configuração do Mosquitto pela criação do arquivo `mosquitto.conf`.*
+     ***Figura 2**. Configuração do Mosquitto pela criação do arquivo `mosquitto.conf`.*
