@@ -15,7 +15,7 @@
 <p align="center">26 de outubro de 2023</p>
 
 # Avaliação 6 - Volumes no Docker
-1. Implementar a sequência de funcionalidades definidas no *Capitulo 4 Trabalhando com Volumes*. Evidenciar o funcionamento com *prints* executando a consulta ao banco de dados MySQL como apresentado no conteúdo.**
+1. Implementar a sequência de funcionalidades definidas no *Capitulo 4 Trabalhando com Volumes*. Evidenciar o funcionamento com *prints* executando a consulta ao banco de dados MySQL como apresentado no conteúdo.
    > ![1](https://github.com/PabloBF/asr_tele/assets/55034604/88dd8e57-595a-478a-bb8f-8e6c55785836)
      ***Figura 1**. Captura de tela do Play with Docker.*
 
