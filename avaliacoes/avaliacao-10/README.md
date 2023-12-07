@@ -1,8 +1,8 @@
 <p align="center">
     <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github.com/PabloBF/asr_tele/assets/55034604/3d498a05-6b17-434b-bc1d-dd3cec5616dc">
-        <source media="(prefers-color-scheme: light)" srcset="https://github.com/PabloBF/asr_tele/assets/55034604/9be30ce1-2e38-4010-a065-eec2b50ed80f">
-        <img alt="IFCE" width="100" src="https://github.com/PabloBF/asr_tele/assets/55034604/9be30ce1-2e38-4010-a065-eec2b50ed80f">
+        <source media="(prefers-color-scheme: dark)" srcset="/img/ifce/logo-vertical-colorida_media.png">
+        <source media="(prefers-color-scheme: light)" srcset="/img/ifce/logo-vertical-branca_media.png">
+        <img alt="IFCE" width="100" src="/img/ifce/logo-vertical-colorida_media.png">
     </picture>
 </p>
 
