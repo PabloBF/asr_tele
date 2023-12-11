@@ -179,3 +179,6 @@ Evidenciar o funcionamento da aplicação usando *prints*. Sugerimos usar o [Pla
 
    > <a name="fig-32"></a>![32](img/32.png)
      ***Figura 32**. O envio do pacote por MQTT para o tópico `asr/nota` com a mensagem `atribuir` (vide [Figura 31](#fig-31)) ativou o gatilho da automação `atribuir-nota` anteriormente configurada (vide [Figuras 21](#fig-21), [22](#fig-22), [23](#fig-23), [24](#fig-24), [25](#fig-25) e [26](#fig-26)), acrescentando 3 itens à lista "A fazer".*
+
+   > A execução desta atividade avaliativa pode ser assistida no vídeo "Automação com Docker Compose, MQTT e Home Assistant" elaborado pela equipe e disponível em: https://youtu.be/mGhKJEOL_Pg<br>
+   > [![Automação com Docker Compose, MQTT e Home Assistant](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fyoutu.be%2FmGhKJEOL_Pg)](https://youtu.be/mGhKJEOL_Pg).
