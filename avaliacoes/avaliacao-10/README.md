@@ -22,45 +22,165 @@ PABLO BUSATTO</p>
 1. O MQTT (*Message Queuing Telemetry Trasport*) é um protocolo leve que implementa o modelo de transporte PUB/SUB (*publish*/*subscribe*). Esse modelo é usado em aplicações de mensageria. O MQTT é principalmente usando em aplicações IoT (internet das coisas). Essa atividade tem como objetivo implementar uma aplicação MQTT usando o `docker-compose`.
 Evidenciar o funcionamento da aplicação usando *prints*. Sugerimos usar o [Play with Docker](https://labs.play-with-docker.com) com o `docker-compose`. Observar os *links* de artigos apresentando esse tema, anexos abaixo. Trabalho com equipes de no máximo três alunos.
 
-   > ![1](https://github.com/PabloBF/asr_tele/assets/55034604/411f9493-7b17-484d-88cb-3d95d51b1c5f)
-     ***Figura 1**. Instalação do Mosquitto pelo `docker-compose`.*
+   > ![01](img/01.png)
+     ***Figura 1**. Criação dos diretórios e do arquivo `mosquitto.conf`.*
 
    > ---
 
-   > ![2](https://github.com/PabloBF/asr_tele/assets/55034604/53ebc0b0-280b-45b1-a391-dcfa8bd58827)
-     ***Figura 2**. Conteúdo do `docker-compose.yaml`.*
+   > ![02](img/02.png)
+     ***Figura 2**. Conteúdo do `compose.yml`.*
 
    > ---
 
-   > ![3](https://github.com/PabloBF/asr_tele/assets/55034604/458787c0-0895-4d48-b6e3-610373b15330)
-     ***Figura 3**. Página do Portainer.*
+   > ![03](img/03.png)
+     ***Figura 3**. Conteúdo do `compose.yml` (continuação).*
 
    > ---
 
-   > ![4](https://github.com/PabloBF/asr_tele/assets/55034604/99e67158-0dcf-401c-813b-d16c78ca05ec)
-     ***Figura 4**. Ambientes no Portainer.*
+   > ![04](img/04.png)
+     ***Figura 4**. Execução do `docker compose up --detach`.*
 
    > ---
 
-   > ![5](https://github.com/PabloBF/asr_tele/assets/55034604/d7fd69a9-2159-4c5f-bf90-73ee6e722972)
-     ***Figura 5**. Lista de contêiners, com `homeassistant`, `mosquitto` e `portainer` em execução.*
-   
-   > ---
-   
-   > ![6](https://github.com/PabloBF/asr_tele/assets/55034604/5b20ad71-8f13-4d2e-bd02-c89035e49365)
-     ***Figura 6**. Detalhes da configuração do contêiner `homeassistant`.*
+   > ![05](img/06.png)
+     ***Figura 5**. Execução do `docker compose up --detach` (continuação).*
 
    > ---
 
-   > ![7](https://github.com/PabloBF/asr_tele/assets/55034604/acc969df-9c6a-4514-b978-4a8c9f6a70a4)
-     ***Figura 7**. Configuração da porta no `homeassistant`.*
+   > ![06](img/05.png)
+     ***Figura 6**. Inserção do caminho para o arquivo `passwd` contendo a senha.*
 
    > ---
 
-   > ![8](https://github.com/PabloBF/asr_tele/assets/55034604/f8adfef5-31c7-4f65-87e7-e87add601be4)
-     ***Figura 8**. Portas acessíveis pelo Play with Docker.*
+   > ![07](img/07.png)
+     ***Figura 7**. Página de boas-vindas do Home Assistant.*
 
    > ---
 
-   > ![9](https://github.com/PabloBF/asr_tele/assets/55034604/5aefbcb4-f6b5-4673-bd88-b263e6141662)
-     ***Figura 9**. Home Assistant configurado e exibindo a localização do IFCE e os integrantes da equipe.*
+   > ![08](img/08.png)
+     ***Figura 8**. Criação do usuário `gabriel-marcia-pablo`.*
+
+   > ---
+
+   > ![09](img/09.png)
+     ***Figura 9**. Inserção da localização no Home Assistant.*
+
+   > ---
+
+   > ![10](img/10.png)
+     ***Figura 10**. Pedido de permissões do Home Assistant.yml`.*
+
+   > ---
+
+   > ![11](img/11.png)
+     ***Figura 11**. Instalação do Mosquitto pelo `docker-compose`.*
+
+   > ---
+
+   > ![12](img/12.png)
+     ***Figura 12**. Conteúdo do `docker-compose.yaml`.*
+
+   > ---
+
+   > ![13](img/13.png)
+     ***Figura 13**. Instalação do Mosquitto pelo `docker-compose`.*
+
+   > ---
+
+   > ![14](img/14.png)
+     ***Figura 14**. Conteúdo do `docker-compose.yaml`.*
+
+   > ---
+
+   > ![15](img/15.png)
+     ***Figura 15**. Instalação do Mosquitto pelo `docker-compose`.*
+
+   > ---
+
+   > ![16](img/16.png)
+     ***Figura 16**. Conteúdo do `docker-compose.yaml`.*
+
+   > ---
+
+   > ![17](img/17.png)
+     ***Figura 17**. Instalação do Mosquitto pelo `docker-compose`.*
+
+   > ---
+
+   > ![18](img/18.png)
+     ***Figura 18**. Conteúdo do `docker-compose.yaml`.*
+
+   > ---
+
+   > ![19](img/19.png)
+     ***Figura 19**. Instalação do Mosquitto pelo `docker-compose`.*
+
+   > ---
+
+   > ![20](img/20.png)
+     ***Figura 20**. Conteúdo do `docker-compose.yaml`.*
+
+   > ---
+
+   > ![21](img/21.png)
+     ***Figura 21**. Instalação do Mosquitto pelo `docker-compose`.*
+
+   > ---
+
+   > ![22](img/22.png)
+     ***Figura 22**. Conteúdo do `docker-compose.yaml`.*
+
+   > ---
+
+   > ![23](img/23.png)
+     ***Figura 23**. Instalação do Mosquitto pelo `docker-compose`.*
+
+   > ---
+
+   > ![24](img/24.png)
+     ***Figura 24**. Conteúdo do `docker-compose.yaml`.*
+
+   > ---
+
+   > ![25](img/25.png)
+     ***Figura 25**. Instalação do Mosquitto pelo `docker-compose`.*
+
+   > ---
+
+   > ![26](img/26.png)
+     ***Figura 26**. Conteúdo do `docker-compose.yaml`.*
+
+   > ---
+
+   > ![27](img/27.png)
+     ***Figura 27**. Instalação do Mosquitto pelo `docker-compose`.*
+
+   > ---
+
+   > ![28](img/28.png)
+     ***Figura 28**. Conteúdo do `docker-compose.yaml`.*
+
+   > ---
+
+   > ![29](img/29.png)
+     ***Figura 29**. Instalação do Mosquitto pelo `docker-compose`.*
+
+   > ---
+
+   > ![30](img/30.png)
+     ***Figura 30**. Conteúdo do `docker-compose.yaml`.*
+
+   > ---
+
+   > ![31](img/31.png)
+     ***Figura 31**. Instalação do Mosquitto pelo `docker-compose`.*
+
+   > ---
+
+   > ![32](img/32.png)
+     ***Figura 32**. Conteúdo do `docker-compose.yaml`.*
+
+   > ---
+
+   > ![33](img/33.png)
+     ***Figura 33**. Conteúdo do `docker-compose.yaml`.*
