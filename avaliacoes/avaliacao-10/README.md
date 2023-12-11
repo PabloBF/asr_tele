@@ -158,7 +158,7 @@ Evidenciar o funcionamento da aplicação usando *prints*. Sugerimos usar o [Pla
    > ---
 
    > <a name="fig-28"></a>![28](img/28.png)
-     ***Figura 28**. Configuração do MQTT. O "Endereço do Broker" corresponde ao endereço IP disponibilizado pelo Play with Docker. Foi usada a porta 1883, porta padrão do MQTT, vide [Figura 7](#fig-07). Os campos usiário e senha foram preenchidos conforme a configuração feita no contêiner do eclipse-mosquitto (MQTT), vide [Figura 6](#fig-06).*
+     ***Figura 28**. Configuração do MQTT. O "Endereço do Broker" corresponde ao endereço IP disponibilizado pelo Play with Docker. Foi usada a porta 1883, porta padrão do MQTT, vide [Figura 7](#fig-07). Os campos usuário e senha foram preenchidos conforme a configuração feita no contêiner do eclipse-mosquitto (MQTT), vide [Figura 6](#fig-06).*
 
    > ---
 
