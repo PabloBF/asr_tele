@@ -94,6 +94,6 @@
    > sudo docker compose up --detach && sudo docker compose ps
    > ```
    > ---
-   > ![1](img/1.png)
+   > ![1](img/01.png)
    > ![2](img/2.png)
    > ***Figura 1**. Execução da atividade no [Play with Docker](https://labs.play-with-docker.com).*
