@@ -30,16 +30,16 @@
    >         published: "3000"
    >         protocol: tcp
    >         mode: host
-   >    working_dir: /app
-   >    volumes:
-   >      - type: bind
-   >        source: ./
-   >        target: /app
-   >    environment:
-   >      MYSQ_HOST: mysql
-   >      MYSQL_USER: root
-   >      MYSQL_PASSWORD: secret
-   >      MYSQL_DB: todos
+   >     working_dir: /app
+   >     volumes:
+   >       - type: bind
+   >         source: ./
+   >         target: /app
+   >     environment:
+   >       MYSQ_HOST: mysql
+   >       MYSQL_USER: root
+   >       MYSQL_PASSWORD: secret
+   >       MYSQL_DB: todos
    > 
    >   mysql:
    >     image: mysql:8.0
@@ -68,16 +68,16 @@
    >         published: "3000"
    >         protocol: tcp
    >         mode: host
-   >    working_dir: /app
-   >    volumes:
-   >      - type: bind
-   >        source: ./
-   >        target: /app
-   >    environment:
-   >      MYSQ_HOST: mysql
-   >      MYSQL_USER: root
-   >      MYSQL_PASSWORD: secret
-   >      MYSQL_DB: todos
+   >     working_dir: /app
+   >     volumes:
+   >       - type: bind
+   >         source: ./
+   >         target: /app
+   >     environment:
+   >       MYSQ_HOST: mysql
+   >       MYSQL_USER: root
+   >       MYSQL_PASSWORD: secret
+   >       MYSQL_DB: todos
    > 
    >   mysql:
    >     image: mysql:8.0
