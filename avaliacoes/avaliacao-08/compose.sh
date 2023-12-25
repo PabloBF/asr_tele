@@ -1,15 +1,22 @@
 git clone https://github.com/docker/getting-started-app.git
 cd getting-started-app
 cat > compose.yml << EOL
+version: "3.8"
 services:
   app:
     image: node:18-alpine
     command: sh -c "yarn install && yarn run dev"
     ports:
-      - 127.0.0.1:3000:3000
+      - target: 3000
+        host_ip: 127.0.0.1
+        published: "3000"
+        protocol: tcp
+        mode: host
     working_dir: /app
     volumes:
-      - ./:/app
+      - type: bind
+        source: ./
+        target: /app
     environment:
       MYSQ_HOST: mysql
       MYSQL_USER: root
@@ -19,7 +26,9 @@ services:
   mysql:
     image: mysql:8.0
     volumes:
-      - todo-mysql-data:/var/lib/mysql
+      - type: volume
+        source: todo-mysql-data
+        target: /var/lib/mysql
     environment:
       MYSQL_ROOT_PASSWORD: secret
       MYSQL_DATABASE: todos
