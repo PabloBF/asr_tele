@@ -1,5 +1,3 @@
-git clone https://github.com/docker/getting-started-app.git
-cd getting-started-app
 cat > compose.yml << EOL
 version: "3.8"
 services:
