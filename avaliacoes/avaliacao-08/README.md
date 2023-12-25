@@ -94,5 +94,6 @@
    > sudo docker compose up --detach && sudo docker compose ps
    > ```
    > ---
-   > ![1](https://github.com/PabloBF/asr_tele/assets/55034604/566fb183-64b8-477e-ba9e-a1219214a607)
+   > ![1](img/1.png)
+   > ![2](img/2.png)
    > ***Figura 1**. Execução da atividade no [Play with Docker](https://labs.play-with-docker.com).*
