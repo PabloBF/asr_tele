@@ -53,5 +53,47 @@
    > volumes:
    >   todo-mysql-data:
    > ```
-
+   > ---
+   > Arquivo `.sh` para execução da atividade:
+   > ```sh
+   > cat > compose.yml << EOL
+   > version: "3.8"
+   > services:
+   >   app:
+   >     image: node:18-alpine
+   >     command: sh -c "yarn install && yarn run dev"
+   >     ports:
+   >       - target: 3000
+   >         host_ip: 127.0.0.1
+   >         published: "3000"
+   >         protocol: tcp
+   >         mode: host
+   >    working_dir: /app
+   >    volumes:
+   >      - type: bind
+   >        source: ./
+   >        target: /app
+   >    environment:
+   >      MYSQ_HOST: mysql
+   >      MYSQL_USER: root
+   >      MYSQL_PASSWORD: secret
+   >      MYSQL_DB: todos
+   > 
+   >   mysql:
+   >     image: mysql:8.0
+   >     volumes:
+   >       - type: volume
+   >         source: todo-mysql-data
+   >         target: /var/lib/mysql
+   >     environment:
+   >       MYSQL_ROOT_PASSWORD: secret
+   >       MYSQL_DATABASE: todos
+   > volumes:
+   >   todo-mysql-data:
+   > EOL
+   > sudo docker compose up --detach
+   > sudo docker compose ps
+   > ```
+   > ---
    > ![1](https://github.com/PabloBF/asr_tele/assets/55034604/566fb183-64b8-477e-ba9e-a1219214a607)
+   > ***Figura 1**. Execução da atividade no [Play with Docker](https://labs.play-with-docker.com).*
