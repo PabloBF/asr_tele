@@ -91,8 +91,7 @@
    > volumes:
    >   todo-mysql-data:
    > EOL
-   > sudo docker compose up --detach
-   > sudo docker compose ps
+   > sudo docker compose up --detach && sudo docker compose ps
    > ```
    > ---
    > ![1](https://github.com/PabloBF/asr_tele/assets/55034604/566fb183-64b8-477e-ba9e-a1219214a607)
